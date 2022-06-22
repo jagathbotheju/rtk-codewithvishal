@@ -1,8 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
-import ContactReducer from "./features/contactSlice";
+import CocktailReducer from "./features/cocktailSlice";
 
 export default configureStore({
   reducer: {
-    contact: ContactReducer,
+    app: CocktailReducer,
   },
 });
